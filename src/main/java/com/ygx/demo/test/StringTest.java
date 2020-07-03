@@ -12,6 +12,7 @@ public class StringTest {
         String s5 = "zs";
         final String s6 = s4 + s5;
         System.out.println(string == s6);
-        System.out.println("this is branch master!");
+        System.out.println("this is branch bugfix!");
+        System.out.println("bugfix bugfix");
     }
 }
