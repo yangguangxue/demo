@@ -15,6 +15,11 @@
 # IDEA ignore
 .idea
 .class
+.mvn
+target
+mvnw
+mvnw.cmd
+.mvn
 *.class
 *.log
 !application.properties
