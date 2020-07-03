@@ -1,0 +1,42 @@
+#设置端口号及访问路径
+server:
+  port: 8888
+  servlet:
+    context-path: /spring_demo
+spring:
+#设置返回日期格式
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    #设置时区
+    time-zone: GMT+8
+#设置接收日期格式
+  mvc:
+    format:
+      date: yyyy-MM-dd HH:mm:ss
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC&allowMultiQueries=true
+    username: root
+    password: 123456
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.ygx.demo.entity
+
+image:
+  value: http:sssssss
+
+logging:
+#  日志打印
+  level:
+    com.ygx.demo.dao: debug
+#  日志输出到控制台及文本
+  file:
+    path: logback-spring.xml
+
+
+
+
+
+
