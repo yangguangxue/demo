@@ -14,5 +14,10 @@ public class StringTest {
         System.out.println(string == s6);
         System.out.println("this is branch master!");
         System.out.println("master master");
+        System.out.println("this is branch test");
+    }
+
+    public void test(){
+
     }
 }
